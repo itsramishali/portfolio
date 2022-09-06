@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/realistic-studio-lights-empty-background-design_1017-27233.jpg?w=2000);
+    background-size: cover;
+}
+.heading{
+    color: red;
+    text-align: center;
+}
+.divider{
+    width: 50%;
+}
+.para{
+    text-align:justify ;
+    
+}
+.link{
+  text-decoration: dashed;
+  font-weight: bold;
+  
+}
+a:hover{
+    color: black;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,42 @@
+*{
+    margin:0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 30px;
+    display: block;
+    background-color: #101010;
+
+}
+.inner_header{
+     width: 100%;
+     height: 100%;
+     display: block;
+     margin: 0 auto;
+}
+ .navigation{
+    float: left      ;
+    height: 100%;
+    color: white;
+ }
+ .navigation a{
+    height: 100%;
+    display: table;
+    float:left ;
+    padding: 0px 20px;
+ }
+ .navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    
+    font-size: 16px ;
+ }
+ .navigation a li:hover{
+   background-color: green;
+   padding: 10px;
+ }

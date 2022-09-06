@@ -1,0 +1,58 @@
+.container{
+    background-image: url(https://c.tadst.com/gfx/750w/skyscraper-day-fun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh;
+}
+.head{
+    padding-top: 30px;
+    color: white;
+    text-align:center;
+    margin-top: 70px;
+}
+.heading{
+    color: white;
+    text-align: center;
+}
+.send{
+    background-color: black;
+    color: white;
+    
+}
+.firstrow{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-bottom: 10px;
+}
+.nim{
+    color: white;
+    background-color: black;
+    width: 50%;
+    margin-right: 10px;
+}
+.mail{
+    color: white;
+    background-color: black;
+    width: 50%;
+}
+.mess{
+    color: white;
+    background-color:black;
+    margin-bottom:10px;
+    height: 100px;
+}
+.sub{
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.ok{
+    color: white;
+    text-decoration:none
+
+}
+

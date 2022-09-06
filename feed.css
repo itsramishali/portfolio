@@ -1,0 +1,42 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    }
+.coulmn{
+    display: flex;
+    flex-direction:column;
+}
+.custom-col{
+    width: 34%;
+    padding: 20px;
+    height: 100vh;
+    /* align-items: center; */
+    justify-content: center;
+}
+.custom-col-img{
+    width: 66%;
+}
+.butt{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    padding: 10px;
+     
+}
+.wel{
+    text-align: center;
+    margin: 40px;
+}
+.put{
+    margin: 15px;
+    padding: 10px;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.do{
+    text-align:center;
+}
