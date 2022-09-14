@@ -16,19 +16,21 @@
     color: white;
 }
 .heading{
-    position: absolute;
-    top: 48%;
-    left:35%;
+    transform: translate(0px,248px);
+    /* position: absolute; */
+    /* top: 48%; */
+    /* left:35%; */
     font-size: 44.8px;
     font-family:"Raleway"sans-serif;
     font-weight: 700;
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
 }
 .para{
-    position: absolute;
-    top: 56%;
-    left:39%;
+    transform: translate(0px,256px);
+    /* position: absolute; */
+    /* top: 56%; */
+    /* left:39%; */
     font-size: 28.8px;
     font-family:"Raleway"sans-serif;
     font-weight: 700;
@@ -53,8 +55,8 @@
     /* padding-bottom: 80px; */
 }
 .ba{
-    padding-bottom: 80px;
-    padding-top: 80px;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
 .hrm{
 margin: 0 auto;
@@ -201,7 +203,7 @@ margin: 0 auto;
 .butt:hover{
     background-color: blue;
 }
-.norm{
+.progress{
     background-color: green;
     width: 85%;
     height: 20px;
@@ -209,12 +211,12 @@ margin: 0 auto;
     text-align: right;
     
 }
-.fix{
+.bar{
     background-color: skyblue;
     width: 15%;
     margin-bottom: 20px;
 }
-.norm1{
+.progress1{
     background-color: green;
     width: 55%;
     height: 20px;
@@ -222,13 +224,13 @@ margin: 0 auto;
     text-align: right;
     
 }
-.fix1{
+.bar1{
     background-color: skyblue;
     width: 45%;
     margin-bottom: 20px;
 
 }
-.norm2{
+.progress2{
     background-color: green;
     width: 85%;
     height: 20px;
@@ -236,12 +238,12 @@ margin: 0 auto;
     text-align: right;
     
 }
-.fix2{
+.bar2{
     background-color: skyblue;
     width: 15%;
     margin-bottom: 20px;
 }
-.norm3{
+.progress3{
     background-color: green;
     width: 45%;
     height: 20px;
@@ -249,12 +251,12 @@ margin: 0 auto;
     text-align: right;
     
 }
-.fix3{
+.bar3{
     background-color: skyblue;
     width: 55%;
     margin-bottom: 20px;
 }
-.norm4{
+.progress4{
     background-color: green;
     width: 95%;
     height: 20px;
@@ -262,11 +264,11 @@ margin: 0 auto;
     text-align: right;
     
 }
-.fix4{
+.bar4{
     background-color: skyblue;
     width:5%;
     margin-bottom: 20px;
-}.norm5{
+}.progress5{
     background-color: green;
     width: 35%;
     height: 20px;
@@ -274,7 +276,7 @@ margin: 0 auto;
     text-align: right;
     
 }
-.fix5{
+.bar5{
     background-color: skyblue;
     width: 65%;
     height: 20px;
